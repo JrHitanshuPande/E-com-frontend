@@ -1,0 +1,10 @@
+.banner 
+{
+    width: 100%;
+    /* border: 2px solid red; */
+    height: auto;
+}
+.banner img 
+{
+    width: 100%;
+}

@@ -1,0 +1,189 @@
+body{
+    background-color: whitesmoke;
+}
+.product-container {
+    width: 23%;
+    height: auto;
+    margin-bottom: 1.5rem;
+    background-color: white;
+    border-radius: 1rem;
+    box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+}
+
+.product-container a {
+    text-decoration: none;
+    color: black;
+}
+
+.product-img {
+    height: auto;
+    display: flex;
+    justify-content: center;
+}
+
+.product-img img {
+    max-width: 100%;
+    height: 28rem;
+}
+
+.product-name {
+    font-size: 2.3rem;
+    height: 2.6rem;
+    overflow: hidden;
+}
+
+.product-catagory {
+    font-size: 1.6rem;
+}
+
+.product-Review {
+    display: inline-block;
+    font-size: 1.9rem;
+    background-color: green;
+}
+
+.Price {
+    display: block;
+    font-size: 2rem;
+    text-align: center;
+    /* background-color: gold; */
+    border-radius: 2rem;
+
+}
+
+/* responsive  */
+@media(max-width: 1000px)
+{
+html{
+    font-size: 60%;
+}
+
+.product-container {
+    width: 30%;
+    height: auto;
+    margin-bottom: 1.5rem;
+    background-color: white;
+    border-radius: 1rem;
+    box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+}
+
+}
+
+@media(max-width: 850px)
+{
+html{
+    font-size: 55%;
+}
+
+@media(max-width: 700px)
+{
+html{
+    font-size: 50%;
+}
+}
+@media(max-width: 600px)
+{
+html{
+    font-size: 45%;
+}
+.product-container {
+    width: 45%;
+    height: auto;
+    margin-bottom: 1.5rem;
+    background-color: white;
+    border-radius: 1rem;
+    box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+}
+}
+
+@media(max-width: 450px)
+{
+    html{
+        font-size: 40%;
+    }
+}
+
+@media(max-width: 400px)
+{
+    html{
+        font-size: 35%;
+    } 
+}
+
+@media(max-width: 350px)
+{
+    html{
+        font-size: 60%;
+    } 
+    .product-container {
+        width: 80%;
+        height: auto;
+        margin-bottom: 1.5rem;
+        background-color: white;
+        border-radius: 1rem;
+        box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+    }
+}
+
+@media(max-width: 300px)
+{
+    html{
+        font-size: 55%;
+    } 
+}
+@media(max-width: 250px)
+{
+    html{
+        font-size: 50%;
+    } 
+}
+@media(max-width: 250px)
+{
+    html{
+        font-size: 40%;
+    } 
+}
+
+/* .product-container {
+    width: 30%;
+    height: auto;
+    margin-bottom: 1.5rem;
+    background-color: white;
+    border-radius: 1rem;
+    box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+} */
+
+}
+/* @media(max-width: 450px)
+{
+html{
+    font-size: 30%;
+}
+
+.product-container {
+    width: 30%;
+    height: auto;
+    margin-bottom: 1.5rem;
+    background-color: white;
+    border-radius: 1rem;
+    box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+}
+
+}
+
+@media(max-width: 360px)
+{
+html{
+    font-size: 25%;
+}
+
+.product-container {
+    width: 45%;
+    height: auto;
+    margin-bottom: 1.5rem;
+    background-color: white;
+    border-radius: 1rem;
+    box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+}
+
+} */
