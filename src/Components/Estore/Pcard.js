@@ -10,7 +10,7 @@ const Pcard = ({ data }) => {
         <div className="product-container" key={data.Id} >
         <Link to={"/productdetail/"+data.Id}>
           <div className="product-img">
-            <img src={data.Images}></img>
+            <img src={data.Images} alt="image"></img>
           </div>
           <div className="product-name" >{data.Title}</div>
           <div className="product-catagory">{data.Catagory}</div>
