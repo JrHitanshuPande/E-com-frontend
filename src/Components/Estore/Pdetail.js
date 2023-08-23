@@ -1,6 +1,6 @@
 import React from 'react'
 import useFetch from '../Database/useFetch'
-import { Params, useParams } from 'react-router-dom';
+import {useParams } from 'react-router-dom';
 import "./Pdetail.css";
 import { baseurl } from '../Database/baseurl';
 
@@ -18,7 +18,7 @@ function Pdetail() {
         {data &&  
         <>
  <div className="big-box">
- <div className="P-image"><img src={data.Images} alt='image'></img></div>
+ <div className="P-image"><img src={data.Images} alt=' product'></img></div>
  {/* <div className="P-image"></div> */}
  <div className="P-details">
  <div className="P-title"><h2>{data.Title}</h2></div>
